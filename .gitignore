@@ -1,0 +1,26 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore editor/IDE config
+.vscode/
+.idea/
+
+# Ignore OS metadata
+.DS_Store
+
+# Ignore output from demo
+output/
+*.dot
+*.blif
+*.vcd
+
+# Ignore backup files
+*.swp
+*.bak
+*~
+
+# Ignore test/venv logs (if applicable)
+*.log
+venv/
