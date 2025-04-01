@@ -120,7 +120,7 @@ Response: [This is a placeholder response]
 
 ## What's Missing (but planned in full SynPYosys)
 - **Real C++/Python bindings** using `pyosys`
-- **Gate-level netlist visualization** with Graphviz
+- **Gate-level visualization** (SynPYosys does this, so once implemented this will be solved.)
 - **Automatic RTL generation** from user requirements
 
 ---
