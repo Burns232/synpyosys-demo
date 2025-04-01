@@ -1,0 +1,5 @@
+read_verilog test_circuits/example.v
+hierarchy -check
+proc; opt; fsm; opt
+abc -fast
+write_verilog output/mapped.v
